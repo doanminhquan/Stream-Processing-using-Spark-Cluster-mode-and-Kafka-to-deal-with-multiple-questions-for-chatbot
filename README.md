@@ -53,7 +53,7 @@ $ /spark/sbin/start-master.sh
 ```
 $ /spark/sbin/start-worker.sh
 ```
-### 6. Run flask module and spark_kafka module on venv
+## 6. Run flask module and spark_kafka module on venv
 ```
 # Run flask module to create POST api endpoint which receive question
 python /home/dis/rag-chatbot/flask-app/flask_app.py
@@ -83,4 +83,3 @@ python /home/dis/rag-chatbot/spark-kafka-app/spark_kafka.py
 This repo is a demo version of spark + kafka module in a rag chatbot app of our organization, you could see more about our Rag module in this github: https://github.com/longcule/rag-chatbot-uet/tree/master or use your chatbot module by changing function generate_responses() in spark_kafka.py (currently using Gemini api)
 # Contact for questions
 - Email: quandoanminh.work@gmail.com
-- Email: quandoanminh.work@gmail.com 
