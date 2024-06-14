@@ -1,7 +1,11 @@
-# Objectives
+# Stream Processing using Spark and KafKa on cluster to deal with multiple questions for chatbot
+[![python](https://img.shields.io/badge/python-3.10.14-green)](https://www.python.org/doc/)
+[![python](https://img.shields.io/badge/kafka-3.7.0-yellow)](https://kafka.apache.org/documentation/)
+[![python](https://img.shields.io/badge/kafka-3.5.1-blue)](https://spark.apache.org/docs/latest/)
+
 ### Overview
 The objective of this project is to create a module that can handle multiple questions at once for my organization's chatbot app, without being hindered by a sudden surge in the number of questions. The idea is to integrate Kafka and Spark Streaming on a Cluster for stream processing and distributed handling of questions across multiple workers simultaneously. Additionally, I have built a Flask module to create a POST request that serves the purpose of testing the increasing number of questions in this trial version. Feel free to upgrade this app and scale it up for your purposes
-Tech stack: PySpark, Apache Kafka, Spark Cluster, Python, Flask
+Tech stack: PySpark, Apache Kafka, Apache Spark, Python, Flask
 
 # Architecture
 ![alt text](https://github.com/doanminhquan/Stream-Processing-using-Spark-Cluster-mode-and-Kafka-to-deal-with-multiple-questions-for-chatbot/blob/93bc465b1c3f71ebf8f77f3115b098cccbce3e8f/architecture.png)
